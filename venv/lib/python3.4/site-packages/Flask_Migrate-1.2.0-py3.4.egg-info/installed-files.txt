@@ -1,0 +1,14 @@
+../flask_migrate/__init__.py
+../flask_migrate/templates/flask/README
+../flask_migrate/templates/flask/alembic.ini.mako
+../flask_migrate/templates/flask/env.py
+../flask_migrate/templates/flask/script.py.mako
+../flask_migrate/__init__.pyc
+../flask_migrate/templates/flask/env.pyc
+./
+dependency_links.txt
+not-zip-safe
+PKG-INFO
+requires.txt
+SOURCES.txt
+top_level.txt

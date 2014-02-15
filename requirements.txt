@@ -1,0 +1,8 @@
+flask
+flask-sqlalchemy
+gunicorn
+psycopg2
+simplejson
+flask-script
+flask-migrate
+alembic
