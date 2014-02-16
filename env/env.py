@@ -18,10 +18,8 @@ config = context.config
 app = create_app()
 
 if os.environ.get("DATABASE_URL"):
-    print('linux')
     app.config['SQLALCHEMY_DATABASE_URI'] = os.environ.get('DATABASE_URL')
 else:
-    print("mac")
     import basic_app.config as _config
     app.config['SQLALCHEMY_DATABASE_URI'] = _config.db_path
 

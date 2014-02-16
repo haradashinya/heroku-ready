@@ -10,9 +10,12 @@ Flask
     source venv/bin/activate
     pip install -r requirements.txt
 
+set db_path like 'postgresql://username:password@hostname/db_name' at basic_app.config.py 
+
 ##Add Addon for Postgresql
 
 heroku addons:add heroku-postgresql:dev
+
 
  
 ##Confirm status of db.

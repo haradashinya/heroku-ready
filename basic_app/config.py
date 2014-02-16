@@ -1,1 +1,1 @@
-db_path = 'postgresql://haradashinya:harashin0219@localhost/sample'
+# db_path = 'postgresql://username:password@hostname/db_name'
