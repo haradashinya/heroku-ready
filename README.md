@@ -1,11 +1,14 @@
-# Heroku-Sample Easy to Deploy it.
+# Heroku-Sample(Under Construction) Easy to Deploy it.
 
 
 ## SETUP Environment
 
+
+Mac OS X 10.9
 Python: 3.3
 Postgres
 Flask
+
 
     source venv/bin/activate
     pip install -r requirements.txt
