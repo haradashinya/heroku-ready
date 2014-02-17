@@ -1,5 +1,4 @@
 from flask import Flask
-from flask.ext.script import Manager
 from flask.ext.sqlalchemy import SQLAlchemy
 db = SQLAlchemy()
 try:
@@ -33,7 +32,6 @@ def create_app():
     if is_mac():
         # load config
         app.config['SQLALCHEMY_DATABASE_URI'] = config.db_path
-        print(config.db_path)
     else:
         app.config['SQLALCHEMY_DATABASE_URI'] = os.environ.get('DATABASE_URL')
 
@@ -42,4 +40,3 @@ def create_app():
     return app
 
 
-manager = Manager(create_app)
